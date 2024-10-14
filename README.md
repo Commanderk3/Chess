@@ -1,1 +1,1 @@
-Download all the necessary Node Modules. Make a seperate folder for it. 
+Node Modules packages are not in this repo. Please install it before running the App.jsx file.

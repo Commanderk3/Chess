@@ -1,0 +1,61 @@
+/* Container for the entire calculator */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.Calculator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+
+}
+.Container {
+    width: 35%;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /*Display section*/ 
+  .display {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(229, 233, 236);
+    text-align: right;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  
+  /* Button list */
+  .Btn-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 5%;
+  }
+  
+  /* Button styling */
+  .Btn-list div {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Btn-list div:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,10 +1,13 @@
 import { Fragment } from "react";
-import  { Board }  from "../components/Board";
+
+import { Calc } from "./../public/projects/Calc"; 
+
+//import { LiftingState } from "./components/LiftStateUp";
 
 export const App = () => {
   return (
     <Fragment>
-      <Board/>   
+      < Calc/>   
     </Fragment>
   );
 };
